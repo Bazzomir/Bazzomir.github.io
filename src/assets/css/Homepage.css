@@ -26,7 +26,6 @@
     display: grid;
     align-items: stretch;
     align-content: space-evenly;
-    font-family: system-ui;
 }
 
 .home-main {
@@ -56,17 +55,3 @@
     box-sizing: border-box;
 }
 
-.home-footer {
-    height: 50vh;
-    background-color: gray;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.home-footer-link:first-child {
-    grid-row: 1/3;
-}

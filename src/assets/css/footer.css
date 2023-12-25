@@ -1,0 +1,95 @@
+.footer {
+    height: 35vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer-image {
+    width: 200px;
+    height: 200px;
+}
+
+.footer-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: whitesmoke;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 6vh;
+}
+
+.footer-link h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.footer-link:hover {
+    color: lightgreen;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+/* .footer-link-connectWithMe {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+} */
+
+.connectWithMe-icons {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    column-gap: 3vw;
+    padding-top: 50px;
+}
+
+.connectWithMe-icons svg {
+    min-height: 30px;
+    height: auto;
+    min-width: auto;
+    width: auto;
+}
+
+.connectWithMe-icons svg:hover {
+    transform: scale(1.5);
+    color: lightgreen;
+}
+
+.getInTouch {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 30px;
+}
+
+.getInTouch-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.getInTouch-items h3 {
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.getInTouch-items svg {
+    color: whitesmoke;
+    padding-right: 10px;
+    min-height: 20px;
+    height: auto;
+    min-width: auto;
+    width: auto;
+}
+

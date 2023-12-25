@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../../assets/css/Homepage.css';
+import Footer from '../elements/menu/footer.js';
 import logoTest1 from '../../assets/image/logoTest1.jpg';
 
 function Homepage() {
@@ -30,15 +30,7 @@ function Homepage() {
                 </div>
             </main>
 
-            <footer className="home-footer">
-                <img src="" alt="" className="home-footer-link" />
-                <Link to="/">Home</Link>
-                <Link to="/">About me, Why Me</Link>
-                <Link to="/">Projects</Link>
-                <Link to="/">Contact Me</Link>
-                <Link to="/">link</Link>
-                <Link to="/">link</Link>
-            </footer>
+            <Footer />
         </div>
     );
 }
