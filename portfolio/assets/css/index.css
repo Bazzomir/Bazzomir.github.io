@@ -31,11 +31,13 @@ main {
     /* font-weight: 400; */
     font-size: 60px;
 }
+
 .container-text h2 {
     font-weight: 400;
     font-size: 45px;
     padding: 20px 0 10px;
 }
+
 .container-text h3 {
     font-weight: 300;
     font-size: 25px;
@@ -45,9 +47,26 @@ main {
     height: 27rem;
 }
 
-.container-image img{
+.container-image img {
     min-height: 25rem;
     height: 100%;
     border: 7px solid cadetblue;
     border-radius: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        padding: 6rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
