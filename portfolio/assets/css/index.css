@@ -5,7 +5,7 @@
 
 main {
     font-family: system-ui;
-    background-color: cadetblue;
+    background-color: #D7FFD8;
     min-height: 100vh;
     height: 100%;
     display: flex;
@@ -48,6 +48,6 @@ main {
 .container-image img{
     min-height: 25rem;
     height: 100%;
-    border: 7px solid aquamarine;
+    border: 7px solid #F3987D;
     border-radius: 50%;
 }
