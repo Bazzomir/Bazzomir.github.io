@@ -48,6 +48,6 @@ main {
 .container-image img{
     min-height: 25rem;
     height: 100%;
-    border: 7px solid #F3987D;
+    border: 7px solid cadetblue;
     border-radius: 50%;
 }
