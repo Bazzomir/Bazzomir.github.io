@@ -127,7 +127,6 @@ main {
         transform: rotate(1turn);
     }
 }
-
 /* Image - Avatar || End */
 
 .techStack {
@@ -144,13 +143,13 @@ main {
 }
 
 .techStack span {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 500;
     /* padding-left: 11px; */
 }
 
 .techStack-image {
-    height: 1.875rem;
+    height: 2.2rem;
     display: flex;
     gap: 1.875rem;
 }
