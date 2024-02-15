@@ -58,7 +58,6 @@ main {
 .box-image {
     width: 60vmin;
     height: 60vmin;
-    /* border: 1px dashed rgba(255, 255, 255, 0.4); */
     position: relative;
 
     &::before {
@@ -69,7 +68,6 @@ main {
         bottom: 0;
         right: 0;
         border-radius: 50%;
-        /* border: 1px dashed rgba(255, 255, 255, 0.4); */
         transform: scale(1.42);
     }
 }
@@ -98,7 +96,7 @@ main {
     position: absolute;
     left: -21%;
     top: -21%;
-    background: url(/portfolio/assets/image/avatar.png);
+    background: url(../image/avatar.png);
     background-size: 60%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -143,9 +141,8 @@ main {
 }
 
 .techStack span {
-    font-size: 3rem;
+    font-size: 3.1rem;
     font-weight: 500;
-    /* padding-left: 11px; */
 }
 
 .techStack-image {
