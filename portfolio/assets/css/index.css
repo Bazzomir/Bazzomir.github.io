@@ -169,7 +169,7 @@ main {
 
 
 /* max-width 320px || max-width 420px || max-width 600px || min-width 600px || min-width 768px || min-width 992px || min-width 1200px */
-@media (max-width: 320px) {
+@media (max-width: 320px) and (min-width: 420px) {
     main {
         padding: 5px;
         display: flex;
@@ -244,7 +244,7 @@ main {
 
 }
 
-@media (max-width: 600px) {
+@media (min-width: 420px) and (max-width: 600px) {
     main {
         padding: 5px;
         display: flex;
