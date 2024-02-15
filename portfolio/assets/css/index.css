@@ -244,47 +244,78 @@ main {
 
 }
 
-/* @media (min-width: 600px) {
+@media (max-width: 600px) {
+    main {
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        background-color: white;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
         justify-content: center;
         align-items: center;
-        padding: 30px 50px;
+        gap: 0;
+    }
+
+    .container-text {
+        row-gap: 7.5px;
+        text-align: center;
     }
 
     .container-text h1 {
-        font-size: 2rem;
+        font-size: 15px;
     }
 
     .container-text h2 {
-        font-size: 1.75rem;
+        font-size: 12px;
+        padding: 3px 0;
     }
 
     .container-text h3 {
-        font-size: 1.25rem;
+        font-size: 10px;
+    }
+
+    .techStack {
+        display: flex;
+        flex-direction: column;
+        row-gap: 7.5px;
+        margin-top: 7.5px;
+    }
+
+    .techStack-text {
+        display: flex;
+        gap: 0;
+    }
+
+    .techStack-text h4 {
+        font-size: 10px;
+    }
+
+    .techStack-text span {
+        font-size: 11px;
+        padding-left: 15px;
+    }
+
+    .techStack-image {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 10px;
+        height: 130px;
+    }
+
+    .techStack-image img {
+        min-height: 25px;
+        height: 100%;
     }
 
     .container-image {
-        margin-top: 1rem;
-        height: 20rem;
+        height: 50vh;
     }
-
-    .container-image img {
-        border: 3px solid cadetblue;
-        border-radius: 33px;
-    }
-} */
-
-/* @media (min-width: 900px) {
-    .container {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 50px;
-        justify-content: center;
-        align-items: center;
-    }
-} */
+} 
 
 /* @media only screen and (min-width: 1200px) {} */
